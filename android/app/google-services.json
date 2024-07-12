@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658224185587",
+    "project_id": "mynote-alamino",
+    "storage_bucket": "mynote-alamino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658224185587:android:3622044aa29077887df786",
+        "android_client_info": {
+          "package_name": "com.note.mynote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGVUgmxPSZt3VS6FkiXK-7Ijq1hPlFKKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
