@@ -62,12 +62,7 @@ class _LoginViewState extends State<LoginView> {
                 );
               } 
               on FirebaseAuthException catch (e) {
-                if(e.code == 'invalid-credential'){
-                  await showErrorDialog(context, 'Invalid Credentail');
-                }
-                else{
-                  await showErrorDialog(context, 'Error: ${e.code}');
-                }
+                await showErrorDialog(context, 'Error: ${e.code}');
               }
               catch(e){
                 await showErrorDialog(context, 'Error: ${e.toString()}');
